@@ -75,7 +75,7 @@ def scrape():
   mars_profile_html.replace("\n", "")
 
   # Export html string
-  mars_profile_df.to_html("Resources/mars_planet_profile_table.html")
+  mars_profile_df.to_html("templates/mars_planet_profile_table.html")
 
   # Visit Astrogeology url
   url = "https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars"
