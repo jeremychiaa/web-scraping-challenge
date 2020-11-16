@@ -116,5 +116,9 @@ def scrape():
   }
 
   print(scraped_data)
+
+  # Close the browser after scraping
   browser.quit()
+
+  # Return results  
   return scraped_data
